@@ -41,6 +41,10 @@ train_data = pd.read_csv("data/train.csv")
 pd.set_option("display.max_rows", None)
 ```
 
+    train:  (891, 12)
+    test:  (418, 11)
+
+
 # 1. Exploratory Data Analysis
 Objectives:
 - Gain a preliminary understanding of available data
@@ -68,6 +72,19 @@ train_data.head(5)
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -181,7 +198,19 @@ test_data.head(5)
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
